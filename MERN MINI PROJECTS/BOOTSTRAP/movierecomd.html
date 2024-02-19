@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Recommendations page-BootStrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"">
+    <style>
+      /* Additional CSS styles */
+      body {
+        padding-top: 60px;
+      }
+      footer {
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-primary fixed-top">
+      <div class="container">
+        <h1 class="text-light">Movie Recommendations</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#action">Action</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#drama">Drama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#comedy">Comedy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#feedback">Feedback</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="py-5">
+      <div class="container">
+        <h2 id="welcome">Welcome to Movie Recommendations</h2>
+        <p>
+          Discover great movies from various genres. Find your next favorite
+          film here!
+        </p>
+        <h2 id="action">Action Movies</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Movie Title 1 - Description of the movie
+          </li>
+          <li class="list-group-item">
+            Movie Title 2 - Description of the movie
+          </li>
+        </ul>
+        <h2 id="drama">Drama Movies</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Movie Title 3 - Description of the movie
+          </li>
+          <li class="list-group-item">
+            Movie Title 4 - Description of the movie
+          </li>
+        </ul>
+        <h2 id="comedy">Comedy Movies</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Movie Title 5 - Description of the movie
+          </li>
+          <li class="list-group-item">
+            Movie Title 6 - Description of the movie
+          </li>
+        </ul>
+        <article id="feedback">
+          <h2>Feedback</h2>
+          <form action="">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="br">Movie Recommendations:</label>
+              <textarea
+                name="br"
+                id="br"
+                class="form-control"
+                rows="2"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <hr />
+    </footer>
+  </body>
+</html>

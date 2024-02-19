@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+form {
+  text-align: left;
+}
+section {
+  padding: 15px 20px;
+  margin: 25px 25px;
+  position: absolute;
+}
+.signup1 {
+  background-color: white;
+  border-radius: 15px 15px;
+  padding: 10px;
+  width: 70%;
+  margin-right: 0;
+  font: bold;
+}
+
+input[type="submit"] {
+  background-color: rgb(73, 177, 73);
+  color: white;
+  border-radius: 10px 10px;
+  border-color: white white white white;
+  height: 50px;
+  font-size: 25px;
+}
+input,
+textarea,
+select {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px 5px;
+  border-color: gray gray;
+}
+
+h2 {
+  text-align: center;
+}

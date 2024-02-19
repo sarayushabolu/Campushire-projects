@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music Band Fan Page-BootStrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"">
+    <style>
+      /* Additional CSS styles */
+      body {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-primary fixed-top">
+      <div class="container">
+        <h1 class="text-light">The Amazing Music Band</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#band-members"
+                >Band Members</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#discography">Discography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#concerts">Concerts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="py-5">
+      <div class="container">
+        <h2 id="band-members">Band Members</h2>
+        <ul class="list-group">
+          <li class="list-group-item">Lead Singer - John Doe</li>
+          <li class="list-group-item">Guitarist - Jane Smith</li>
+          <li class="list-group-item">Bass Player - James Johnson</li>
+          <li class="list-group-item">Drummer - Emily Brown</li>
+        </ul>
+        <h2 id="discography">Discography</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Album</th>
+              <th>Release Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Album 1</td>
+              <td>20XX</td>
+            </tr>
+            <tr>
+              <td>Album 2</td>
+              <td>20XX</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 id="concerts">Concerts</h2>
+        <hr />
+        <article>
+          <h2>Contact</h2>
+          <form action="">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control"
+              />
+            </div>
+            <div class="form-group">
+              <label for="msg">Message:</label>
+              <textarea
+                name="msg"
+                id="msg"
+                class="form-control"
+                rows="2"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up page-BootStrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"">
+    <style>
+      /* Additional CSS styles */
+      body {
+        padding-top: 60px;
+      }
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" class="p-4">
+      <h1 class="mb-4">Please Sign Up here!!</h1>
+      <div class="form-group">
+        <label for="uname">Enter UserName:</label>
+        <input type="text" name="uname" id="uname" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="pwd">Enter Password:</label>
+        <input type="password" name="pwd" id="pwd" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="cpwd">Confirm Password:</label>
+        <input type="password" name="cpwd" id="cpwd" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="gender">Select Gender:</label>
+        <input
+          type="text"
+          name="gender"
+          id="gender"
+          class="form-control"
+          value="Male"
+        />
+      </div>
+      <div class="form-group">
+        <label for="mobile">Enter Mobile Number:</label>
+        <input type="text" name="mobile" id="mobile" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="dob">Enter DOB:</label>
+        <input
+          type="text"
+          name="dob"
+          id="dob"
+          class="form-control"
+          placeholder="dd-mm-yyyy"
+        />
+      </div>
+      <div class="form-group">
+        <label for="adrs">Enter Address:</label>
+        <textarea
+          name="adrs"
+          id="adrs"
+          class="form-control"
+          rows="2"
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <label for="qualification">Select Qualification:</label>
+        <input
+          type="text"
+          name="qualification"
+          id="qualification"
+          class="form-control"
+          value="Bachelor"
+        />
+      </div>
+      <div class="form-group">
+        <label for="skills">Choose Skills:</label>
+        <input
+          type="text"
+          name="skills"
+          id="skills"
+          class="form-control"
+          placeholder="eg., Java, Python, HTML"
+        />
+      </div>
+      <div class="form-group">
+        <label for="shift">Preferred Shift:</label>
+        <input
+          type="text"
+          name="shift"
+          id="shift"
+          class="form-control"
+          value="Day Shift"
+        />
+      </div>
+      <div class="form-group">
+        <label for="resume">Upload your Resume:</label>
+        <input
+          type="file"
+          name="resume"
+          id="resume"
+          class="form-control-file"
+        />
+      </div>
+      <button
+        type="submit"
+        name="register"
+        id="register"
+        class="btn btn-primary btn-block"
+      >
+        Register
+      </button>
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+        class="btn btn-secondary btn-block"
+      >
+        Reset
+      </button>
+    </form>
+  </body>
+</html>

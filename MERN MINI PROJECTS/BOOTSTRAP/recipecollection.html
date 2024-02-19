@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Building A Recipe Collection Webpage-BootStrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"">
+    <style>
+      /* Additional CSS styles */
+      body {
+        padding-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-primary fixed-top">
+      <div class="container">
+        <h1 class="text-light">My Recipe Collection</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#breakfast">Breakfast</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#lunch">Lunch</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#dinner">Dinner</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="py-5">
+      <div class="container">
+        <h2>Welcome to My Recipe Collection</h2>
+        <p>Explore a variety of delicious recipes for all occasions.</p>
+        <h2 id="breakfast">Breakfast Recipes</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Pancakes - Fluffy pancakes with maple syrup
+          </li>
+          <li class="list-group-item">
+            Omelette - Classic omelette with your choice of fillings
+          </li>
+        </ul>
+        <h2 id="lunch">Lunch Recipes</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Caesar Salad - A fresh and tasty salad
+          </li>
+          <li class="list-group-item">
+            Club Sandwich - A triple-decker delight
+          </li>
+        </ul>
+        <h2 id="dinner">Dinner Recipes</h2>
+        <ul class="list-group">
+          <li class="list-group-item">
+            Spaghetti Bolognese - A hearty Italian pasta dish
+          </li>
+          <li class="list-group-item">
+            Grilled Salmon - Delicious and healthy grilled salmon
+          </li>
+        </ul>
+        <article class="mt-4">
+          <hr />
+          <label for="recipe">Search Recipes:</label>
+          <input type="text" name="recipe" id="recipe" class="form-control" />
+          <button type="submit" class="btn btn-primary mt-2">Search</button>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>

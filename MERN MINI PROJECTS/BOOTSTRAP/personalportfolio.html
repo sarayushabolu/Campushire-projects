@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Portfolio Page-Bootstrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"">
+    <style>
+      /* Additional CSS styles */
+      body {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-primary fixed-top">
+      <div class="container">
+        <h1 class="text-light">Your Name</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Introduce yourself and your career goals here.</p>
+      </div>
+    </section>
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <h2>Projects</h2>
+        <ul class="list-group">
+          <li class="list-group-item">Project 1 - Description</li>
+          <li class="list-group-item">Project 2 - Description</li>
+          <li class="list-group-item">Project 3 - Description</li>
+        </ul>
+        <h2>Skills</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Skill Category</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Web Development</td>
+              <td>HTML, CSS, JavaScript</td>
+            </tr>
+            <tr>
+              <td>Graphic Design</td>
+              <td>Photoshop, Illustrator</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h2>Contact</h2>
+        <form action="" class="needs-validation" novalidate>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="form-control"
+              required
+            />
+            <div class="invalid-feedback">Please enter your name.</div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="form-control"
+              required
+            />
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              class="form-control"
+              required
+            />
+            <div class="invalid-feedback">
+              Please enter a subject for your message.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-control"
+              rows="3"
+              required
+            ></textarea>
+            <div class="invalid-feedback">Please enter a message.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer class="text-center bg-light py-4 fixed-bottom">
+      <div class="container">&copy;2023 Your Name <br /></div>
+    </footer>
+  </body>
+</html>

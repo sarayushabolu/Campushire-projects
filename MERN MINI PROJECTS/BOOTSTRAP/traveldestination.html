@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Destination Guide Webpage-BootStrap</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous"">
+    <style>
+      /* Additional CSS styles */
+      body {
+        padding-top: 60px;
+      }
+      footer {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f8f9fa;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-primary fixed-top">
+      <div class="container">
+        <h1 class="text-light">Exploring Beautiful Destinations</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#introduction"
+                >Introduction</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#attraction">Attraction</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#local-cuisine"
+                >Local Cuisine</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#feedback">Feedback</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="introduction" class="py-5">
+      <div class="container">
+        <h2>Introduction</h2>
+        <p>
+          Welcome to the wonderful destination! Here, you'll find everything you
+          need to know about this amazing place.
+        </p>
+      </div>
+    </section>
+    <section id="attraction" class="py-5 bg-light">
+      <div class="container">
+        <h2>Attraction</h2>
+        <ol>
+          <li>Historical Landmarks</li>
+          <li>Natural Wonders</li>
+          <li>Cultural Festivals</li>
+        </ol>
+      </div>
+    </section>
+    <section id="local-cuisine" class="py-5">
+      <div class="container">
+        <h2>Local Cuisine</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Dish</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Local Dish 1</td>
+              <td>Description of the dish</td>
+            </tr>
+            <tr>
+              <td>Local Dish 2</td>
+              <td>Description of the dish</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="feedback" class="py-5 bg-light">
+      <div class="container">
+        <h2>Feedback</h2>
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="cmnt">Comments:</label>
+            <textarea
+              name="cmnt"
+              id="cmnt"
+              class="form-control"
+              rows="2"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <hr />
+      <span>"A Beautiful quotation for Destination"</span>
+    </footer>
+  </body>
+</html>

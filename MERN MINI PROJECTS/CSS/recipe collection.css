@@ -1,0 +1,71 @@
+body {
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: rgb(234, 39, 39);
+  text-align: center;
+  color: white;
+  padding: 25px;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.main {
+  background-color: white;
+  border-radius: 15px 15px;
+  margin: auto;
+  padding: 40px 10px;
+  width: 70%;
+  font: bold;
+}
+
+main h2 {
+  color: rgb(234, 39, 39);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  background-color: rgb(234, 39, 39);
+  color: white;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+main h2::first-letter {
+  color: #20f000;
+  font-size: xX-large;
+}
+
+main h2::first-line {
+  font-variant: small-caps;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  float: right;
+  padding: 5px 50px 150px;
+}
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+img {
+  animation: grow-and-shrink 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
